@@ -1,0 +1,23 @@
+INFO:root:Dog Breed Classification
+INFO:root:Program Started: 03/06/2017 18:11:47
+INFO:root:Saved height and width histogram plots as: 
+ image_width_hist.pdf, image_height_hist.pdf
+INFO:root:Starting image processing for logistic regression
+INFO:root:Converted images to 450 width, 400 height, and black and white
+INFO:root:Starting PCA and LR
+INFO:root:Saved PCA plot as: 
+ PCA.pdf
+INFO:root:LR hyperparamter resuts: best C- 1e-09 best solver:  lbfgs
+INFO:root:LR accuracy:  0.634146341463
+INFO:root:Saved LR confusion matrix to:  
+ LR_confusion_matrix.csv
+INFO:root:Finished PCA and LR
+INFO:root:Starting image processing for CNN
+INFO:root:Starting CNN
+INFO:root:Training CNN with 35 epochs- go get a beverage, this can take a while....
+INFO:root:CNN training start time:  18:13:06
+INFO:root:CNN training finish time:  18:59:55
+INFO:root:CNN accuracy:  0.6219512195121951
+INFO:root:Saved CNN confusion matrix to:  
+ CNN_confusion_matrix.csv
+INFO:root:Program finished:  19:00:11
